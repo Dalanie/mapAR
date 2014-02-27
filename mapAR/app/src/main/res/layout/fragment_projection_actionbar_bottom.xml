@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/actionbar_background" >
+
+    <TextView
+        android:id="@+id/projectionText"
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/projectionText" />
+
+    <Spinner
+        android:id="@+id/action_projection_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_type_of_projection"
+        android:spinnerMode="dialog"
+        android:title="@string/projection" />
+
+    <TextView
+        android:id="@+id/sensorText"
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sensorText" />
+
+    <Spinner
+        android:id="@+id/action_smoothing_sensor_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_sensor_smoothing"
+        android:spinnerMode="dialog"
+        android:title="@string/smoothing_sensor" />
+
+    <TextView
+        android:id="@+id/locationText"
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locationText" />
+
+    <Spinner
+        android:id="@+id/action_smoothing_location_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_location_smoothing"
+        android:spinnerMode="dialog"
+        android:title="@string/smoothing_location" />
+
+</LinearLayout>

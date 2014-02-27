@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:uiOptions="splitActionBarWhenNarrow" >
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/map"/>
+    <item
+        android:id="@+id/action_remove"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/remove_polygons"/>
+    <item
+        android:id="@+id/action_compass"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/compass"/>
+    <item
+        android:id="@+id/action_accuracy"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/accuracy"/>
+    <item
+        android:id="@+id/action_direction"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/direction"/>
+    <item
+        android:id="@+id/action_debug_overlay"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/debug"/>
+    <item
+        android:id="@+id/action_settings"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/settings">
+    </item>
+    <item
+        android:id="@+id/action_create_polygons"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/create_polygons">
+    </item>
+
+</menu>

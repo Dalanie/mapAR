@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">mapAR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Google Maps API keys -->
+    <!-- Debug Key v2 -->
+    <string name="maps2_apikey">AIzaSyD4LWoxehVa0ldC6IJ_DJeh-KQKWBoxzVI</string>
+    <!-- Release Key v2 -->
+    <!-- <string name="maps2_apikey">AIzaSyBa2NU5Djov4-OO7H2ogAPVAk5Hw2L0nb8</string> -->
+    <string name="title_activity_map">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="smoothing_sensor">Smoothing Sensor</string>
+    <string name="projection">Projection</string>
+    <string name="smoothing_location">Smoothing Location</string>
+    <string name="remove_polygons">Remove Polygons</string>
+    <string name="map">Map</string>
+    <string name="compass">Compass</string>
+    <string name="direction">Direction</string>
+    <string name="debug">Debug</string>
+    <string name="settings">Settings</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="select_sensor_smoothing">Select Sensor-Smoothing</string>
+    <string name="select_location_smoothing">Select location smoothing</string>
+    <string name="select_type_of_projection">Select type of projection</string>
+    <string name="projectionText">Projection:</string>
+    <string name="sensorText">Sensor:</string>
+    <string name="locationText">Location:</string>
+    <string name="create_polygons">Create Polygons</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="set_camera_height">Set camera height</string>
+    <string name="set_height">Set height</string>
+    <string name="load_polygons">Load Polygons</string>
+    <string name="satellite">Satellite</string>
+    <string name="picture">Picture</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Diese XML-Datei beinhaltet alle in der Anwendung benutzten Farben. Dies hat unter anderem den Vorteil,
+     Farben bei Bedarf an nur einer Stelle ändern zu müssen und eine einheitliche Struktur zu gewährleisten
+-->
+<resources>
+    <color name="actionbar_background">#64000000</color>
+    <color name="textViewColor">#CCCCCC</color>
+</resources>
